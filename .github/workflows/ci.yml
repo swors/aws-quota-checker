@@ -1,6 +1,7 @@
 on:
   workflow_dispatch:
-    - eip_count_current
+    branches:
+      - eip_count_current
   pull_request:
     branches:
       - teleport
