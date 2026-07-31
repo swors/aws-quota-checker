@@ -24,3 +24,7 @@ aws-quota-checker = "aws_quota.cli:cli"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.black]
+skip-string-normalization = true
+skip-magic-trailing-comma = true
